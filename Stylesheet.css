@@ -1,0 +1,32 @@
+/*
+    StyleSheets for Clementine´s Bakery.
+    This is a file, the objetive is simplify the code. 
+    Less code, less files.
+    All development in this project was realized by me.
+    https://github.com/ahb62/Clementine-Bakery.git
+    Instagram: ahb.62
+*/
+
+body {
+    background-image: url(img/background.png);
+    background-repeat: repeat;
+  }
+  #bar2 {
+    background-color: #F5D0A9;
+  }
+  
+  #bar1 {
+    background-color: #F5D0A9;
+  }
+  
+  #bar0 {
+    background-color: #ECCEF5;
+  }
+  
+  style {
+  }
+  
+  #promodelivery {
+    border-radius: 50px;
+  }
+  
