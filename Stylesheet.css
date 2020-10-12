@@ -7,12 +7,10 @@
     Instagram: ahb.62
 */
 
-body {
-    background-image: url(img/background.png);
-    background-repeat: repeat;
-  }
   #bar2 {
     background-color: #F5D0A9;
+    padding: 5px;
+    margin:2px;
   }
   
   #bar1 {
@@ -27,59 +25,38 @@ body {
     
   }
   
-  style {
-  }
-  
-  #promodelivery {
-    border-radius: 50px;
-  }
    /*
    Modify the Home.html page
    */
-  .d-flex flex-row flex-wrap highlight-phone {
-    background-color: rgb(194,223,238);
-    height: 750px;
-   }
+  #flexb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+  }
 
-  #containerd-flex {
-    width: 500px;
-    height: 400px;
-    margin: 12px;
-   }
-  
-  #rowd-flex {
-    width: 500px;
-    margin: 12px;
+  #flexb h2 {
+    color: rgb(0,0,0);
+    font-size: 40px;
+    font-weight: bold;
   }
   
-  #colmd8 {
-    width: 500px;
-  }
-
-  #colmd8 h2 {
-    color: rgb(0,0,0);font-size: 40px;
-  }
-
-  #colmd8 p {
-    color: rgb(0,0,0);font-size: 18px;
-  }
-
   #btnd-flex {
     background-color: #f5d0a9;
     color: rgb(0,0,0);
     font-size: 16px;
   }
 
-  #promodelivery {
-    border-radius: 50px;
-    margin: 60px;
-    width: 420px;
-    height: 320px;
-  }
-
   #jumbotron0 {
     margin: 0;
-    background-color: rgba(236,206,245,0.5);
+    background-color: rgb(236,206,245);
+    width: 100vw;
+    height: 90vh;
 
   }
 
@@ -99,7 +76,8 @@ body {
 
   #simpleslider {
     padding: 20px;
-    background-color: rgba(194,223,238,0.5);
+    background-color: rgb(194,223,238);
+    height: 100vh;
   }
 
   .simple-slider .swiper-slide {
@@ -150,9 +128,9 @@ body {
   
   @media (max-width:767px) {
     .article-list h2 {
-      margin-bottom: 25px;
-      padding-top: 25px;
-      font-size: 24px;
+      margin-bottom: 20px;
+      padding-top: 20px;
+      font-size: 22px;
     }
   }
   
@@ -207,22 +185,43 @@ body {
   
 
   #articlelist {
-    background-color: rgba(236,206,245,0.5);
+    background-color: rgb(236,206,245);
   }
 
+  #ft {
+    width: auto;
+    height: 150px;
+  }
   #jumbotron1 {
     margin: 0px;
-    background-color: rgba(247,247,249,0);
+    background-color: rgb(247,247,249);
     background-image: url(img/realcupcakes.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
 
   #jumbotron1 div {
-    background-color: rgba(194,223,238,0.8);
+    background-color: rgb(80, 122, 161);
     padding: 5px;
+    border-radius: 25px;
+  }
+  #jumbotron1 h2 {
+    color: rgb(0,0,0);
+    border-radius: 2px;
+    padding:2.5px;
+    margin:5px;
+    display: inline-block
   }
 
+  #jumbotron1 p {
+    color:#eddef5;
+    font-size: 18px;
+  }
+
+  #jumbotron1 p > a {
+    background-color: #f5d0a9;
+    color: rgb(0,0,0);
+  }
   /*
   Newsletters Subscription Form
 
@@ -404,8 +403,8 @@ body {
   */
   .footer-basic {
     padding: 40px 0;
-    background-color: #ffffff;
-    color: #4b4c4d;
+    background-color: #252525;;
+    color: #ffffff;
   }
   
   .footer-basic ul {
@@ -444,7 +443,7 @@ body {
     display: inline-block;
     text-align: center;
     border-radius: 50%;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     margin: 0 8px;
     color: inherit;
     opacity: 0.75;
@@ -458,7 +457,7 @@ body {
     margin-top: 15px;
     text-align: center;
     font-size: 13px;
-    color: #aaa;
+    color: #ffffff;
     margin-bottom: 0;
   }
   
@@ -648,10 +647,14 @@ Features Clean ends
 
 /* highlight-phone css begins
 */
-.highlight-phone {
+.highlight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #313437;
-  background-color: #eef4f7;
-  padding: 50px 0 55px;
+  background-image: url(img/maps.jpg);
+  background-size: cover; 
+  height: 100vh;
   overflow: hidden;
 }
 
