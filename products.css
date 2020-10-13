@@ -29,6 +29,25 @@
 /*
 Navbar ends
 */
+
+#products {
+  background-color:rgb(194,223,238);
+  margin-top: 54px;
+  padding-top:10px;
+}
+
+#products h2 {
+  color: black;
+}
+
+.row {
+  padding: 10px;
+}
+
+.col img {
+  width: 120px;
+  height: auto;
+}
 /*
   Footer Basic begins
 */

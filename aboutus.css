@@ -34,8 +34,9 @@ Features Clean begins
 */
 .features-clean {
   color: #313437;
-  background-color: #fff;
+  background-color:rgb(194,223,238);
   padding-bottom: 30px;
+  margin-top: 54px;
 }
 
 @media (max-width:767px) {
@@ -114,7 +115,7 @@ Team Clean begins
 */
 .team-clean {
   color: #313437;
-  background-color: #fff;
+  background-color:rgb(194,223,238);
 }
 
 .team-clean p {

@@ -32,10 +32,24 @@ Navbar ends
 Contact Clean begins
 */
 .contact-clean {
-  background: #f1f7fc;
+  background-color:rgb(194,223,238);
   padding: 80px 0;
 }
 
+#conclean {
+  background-color: #eccef5;
+}
+
+.contact-clean form h2 {
+  color: #000000;
+}
+
+#send {
+  color: #000000;
+  background-color: #F5D0A9;
+}
+
+}
 @media (max-width:767px) {
   .contact-clean {
     padding: 20px 0;
