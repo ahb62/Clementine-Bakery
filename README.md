@@ -5,7 +5,7 @@ This project has been developed for some reasons. first, for personal purposes. 
 - Job purposes
 - Lucrative purposes
 ----------------------------------------------------------------------------------------------------------------------------------
-- The project contains an fictional company, her name is "Clementine´s Bakery" and her area is a bakery. This bakery also solds 
+- The project contains a fictional company, her name is "Clementine´s Bakery" and her area is a bakery. This bakery also solds 
   snacks, drinks and more. 
 - One of these features is the free shipping, or free delivery. 
 ----------------------------------------------------------------------------------------------------------------------------------
