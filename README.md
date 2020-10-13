@@ -10,6 +10,6 @@ This project has been developed for some reasons. first, for personal purposes. 
 - One of these features is the free shipping, or free delivery. 
 ----------------------------------------------------------------------------------------------------------------------------------
 (note: the project is in development, it's not finished, will need an backend enviroment, fix some bugs in UI/UX & integrate more
-features with JAVASCRIPT with frameworks like VUE.JS - REACT.JS 
+features with JAVASCRIPT & frameworks like VUE.JS - REACT.JS)
 ----------------------------------------------------------------------------------------------------------------------------------
 All rights reserved - 2020.
