@@ -1,0 +1,897 @@
+/*
+    StyleSheets for Clementine´s Bakery.
+    This is a file, the objetive is simplify the code. 
+    Less code, less files.
+    All development in this project was realized by me.
+    https://github.com/ahb62/Clementine-Bakery.git
+    Instagram: ahb.62
+*/
+
+  #bar2 {
+    background-color: #F5D0A9;
+    padding: 5px;
+    margin:2px;
+  }
+  
+  #bar1 {
+    background-color: #F5D0A9;
+    padding: 10px;
+    font-size: 22px;
+    color: rgb(0,0,0);
+  }
+  
+  #bar0 {
+    background-color: #ECCEF5;
+    
+  }
+  
+   /*
+   Modify the Home.html page
+   */
+  #flexb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+  }
+
+  #flexb h2 {
+    color: rgb(0,0,0);
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  #btnd-flex {
+    background-color: #f5d0a9;
+    color: rgb(0,0,0);
+    font-size: 16px;
+  }
+
+  #jumbotron0 {
+    margin: 0;
+    background-color: rgb(236,206,245);
+    width: 100vw;
+    height: 90vh;
+
+  }
+
+  #jumbotron0 h1 {
+    "color: #000000;"
+  }
+
+  #jumbotron0 p {
+    font-size: 18px;
+    color: #000000;
+  }
+
+  #btnjumbotron0 {
+    color: rgb(14,13,13);
+    background-color: #f5d0a9;
+  }
+
+  #simpleslider {
+    padding: 20px;
+    background-color: rgb(194,223,238);
+    height: 100vh;
+  }
+
+  .simple-slider .swiper-slide {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  @media (max-width:767px) {
+    .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+      display: none;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .simple-slider .swiper-slide {
+      height: 360px;
+    }
+  }
+  
+
+  #swiperwrapper{
+    padding: 0px;
+  }
+
+  .article-list {
+    color: #313437;
+    background-color: #fff;
+  }
+  
+  .article-list p {
+    color: #7d8285;
+  }
+  
+  .article-list h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+  }
+  
+  @media (max-width:767px) {
+    .article-list h2 {
+      margin-bottom: 20px;
+      padding-top: 20px;
+      font-size: 22px;
+    }
+  }
+  
+  .article-list .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .article-list .intro p {
+    margin-bottom: 0;
+  }
+  
+  .article-list .articles {
+    padding-bottom: 40px;
+  }
+  
+  .article-list .item {
+    padding-top: 50px;
+    min-height: 425px;
+    text-align: center;
+  }
+  
+  .article-list .item .name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    color: inherit;
+  }
+  
+  .article-list .item .description {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+  
+  .article-list .item .action {
+    font-size: 24px;
+    width: 24px;
+    margin: 22px auto 0;
+    line-height: 1;
+    display: block;
+    color: #4f86c3;
+    opacity: 0.85;
+    transition: opacity 0.2s;
+    text-decoration: none;
+  }
+  
+  .article-list .item .action:hover {
+    opacity: 1;
+  }
+  
+
+  #articlelist {
+    background-color: rgb(236,206,245);
+  }
+
+  #ft {
+    width: auto;
+    height: 150px;
+  }
+  #jumbotron1 {
+    margin: 0px;
+    background-color: rgb(247,247,249);
+    background-image: url(img/realcupcakes.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #jumbotron1 div {
+    background-color: rgb(80, 122, 161);
+    padding: 5px;
+    border-radius: 25px;
+  }
+  #jumbotron1 h2 {
+    color: rgb(0,0,0);
+    border-radius: 2px;
+    padding:2.5px;
+    margin:5px;
+    display: inline-block
+  }
+
+  #jumbotron1 p {
+    color:#eddef5;
+    font-size: 18px;
+  }
+
+  #jumbotron1 p > a {
+    background-color: #f5d0a9;
+    color: rgb(0,0,0);
+  }
+  /*
+  Newsletters Subscription Form
+
+  */
+  .newsletter-subscribe {
+    color: #313437;
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  .newsletter-subscribe p {
+    color: #7d8285;
+    line-height: 1.5;
+  }
+  
+  .newsletter-subscribe h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    padding-top: 0;
+    margin-top: 0;
+    color: inherit;
+  }
+  
+  .newsletter-subscribe .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 25px;
+  }
+  
+  .newsletter-subscribe .intro p {
+    margin-bottom: 35px;
+  }
+  
+  .newsletter-subscribe form {
+    justify-content: center;
+  }
+  
+  .newsletter-subscribe form .form-control {
+    background: #eff1f4;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 9px;
+    height: 45px;
+    margin-right: 10px;
+    min-width: 250px;
+  }
+  
+  .newsletter-subscribe form .btn {
+    padding: 16px 32px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1;
+  }
+  
+  .newsletter-subscribe form .btn:hover {
+    opacity: 1;
+  }
+  
+  .newsletter-subscribe form .btn:active {
+    transform: translateY(1px);
+  }
+  
+  .newsletter-subscribe form .btn-primary {
+    background-color: #055ada !important;
+    color: #fff;
+    outline: none !important;
+  }
+
+  /*
+  Newsletter Subscription Form ends
+  */
+
+
+  /*
+  team clean 
+  */
+  .team-clean {
+    color: #313437;
+    background-color: #fff;
+  }
+  
+  .team-clean p {
+    color: #7d8285;
+  }
+  
+  .team-clean h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+  }
+  
+  @media (max-width:767px) {
+    .team-clean h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px;
+    }
+  }
+  
+  .team-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .team-clean .intro p {
+    margin-bottom: 0;
+  }
+  
+  .team-clean .people {
+    padding-bottom: 40px;
+  }
+  
+  .team-clean .item {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .team-clean .item .name {
+    font-weight: bold;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: inherit;
+  }
+  
+  .team-clean .item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #d0d0d0;
+    letter-spacing: 2px;
+    font-size: 13px;
+  }
+  
+  .team-clean .item .description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .team-clean .item img {
+    max-width: 160px;
+  }
+  
+  .team-clean .social {
+    font-size: 18px;
+    color: #a2a8ae;
+  }
+  
+  .team-clean .social a {
+    color: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.7;
+  }
+  
+  .team-clean .social a:hover {
+    opacity: 1;
+  }
+  
+  /*
+  Team clean ends
+  */
+
+  /*
+  Footer Basic begins
+  */
+  .footer-basic {
+    padding: 40px 0;
+    background-color: #252525;;
+    color: #ffffff;
+  }
+  
+  .footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  
+  .footer-basic li {
+    padding: 0 10px;
+  }
+  
+  .footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity: 1;
+  }
+  
+  .footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity: 0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  
+/*
+Footer basic ends
+*/
+
+/*
+Contact Form begins
+*/
+.contact-clean {
+  background: #f1f7fc;
+  padding: 80px 0;
+}
+
+@media (max-width:767px) {
+  .contact-clean {
+    padding: 20px 0;
+  }
+}
+
+.contact-clean form {
+  max-width: 480px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width:767px) {
+  .contact-clean form {
+    padding: 30px;
+  }
+}
+
+.contact-clean h2 {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 36px;
+  color: inherit;
+}
+
+.contact-clean .form-group:last-child {
+  margin-bottom: 5px;
+}
+
+.contact-clean form .form-control {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+  outline: none;
+  color: inherit;
+  padding-left: 12px;
+  height: 42px;
+}
+
+.contact-clean form .form-control:focus {
+  border: 1px solid #b2b2b2;
+}
+
+.contact-clean form textarea.form-control {
+  min-height: 100px;
+  max-height: 260px;
+  padding-top: 10px;
+  resize: vertical;
+}
+
+.contact-clean form .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  outline: none !important;
+}
+
+.contact-clean form .btn:hover {
+  opacity: 1;
+}
+
+.contact-clean form .btn:active {
+  transform: translateY(1px);
+}
+
+.contact-clean form .btn-primary {
+  background-color: #055ada !important;
+  margin-top: 15px;
+  color: #fff;
+}
+
+/*
+Contact Form ends 
+*/
+
+/*
+Features Clean begins
+*/
+
+.features-clean {
+  color: #313437;
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+
+@media (max-width:767px) {
+  .features-clean {
+    padding-bottom: 10px;
+  }
+}
+
+.features-clean p {
+  color: #7d8285;
+}
+
+.features-clean h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .features-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.features-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 60px;
+}
+
+@media (max-width:767px) {
+  .features-clean .intro {
+    margin-bottom: 40px;
+  }
+}
+
+.features-clean .item {
+  min-height: 100px;
+  padding-left: 80px;
+  margin-bottom: 40px;
+}
+
+@media (max-width:767px) {
+  .features-clean .item {
+    min-height: 0;
+  }
+}
+
+.features-clean .item .name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: inherit;
+}
+
+.features-clean .item .description {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.features-clean .item .icon {
+  font-size: 40px;
+  color: #1485ee;
+  float: left;
+  margin-left: -65px;
+}
+/*
+Features Clean ends
+*/
+
+
+/* highlight-phone css begins
+*/
+.highlight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #313437;
+  background-image: url(img/maps.jpg);
+  background-size: cover; 
+  height: 100vh;
+  overflow: hidden;
+}
+
+@media (max-width:767px) {
+  .highlight-phone {
+    text-align: center;
+  }
+}
+
+.highlight-phone p {
+  color: #7d8285;
+}
+
+.highlight-phone h2 {
+  font-weight: bold;
+  margin-bottom: 35px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.highlight-phone .intro {
+  font-size: 18px;
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+@media (max-width:767px) {
+  .highlight-phone .intro {
+    max-width: none;
+  }
+}
+
+.highlight-phone .intro p {
+  margin-bottom: 35px;
+}
+
+.highlight-phone .intro .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.highlight-phone .intro .btn:hover {
+  opacity: 1;
+}
+
+.highlight-phone .intro .btn:active {
+  transform: translateY(1px);
+}
+
+.highlight-phone .intro .btn-primary {
+  background-color: #055ada;
+  color: #fff;
+}
+
+.highlight-phone .iphone-mockup {
+  position: relative;
+  max-width: 260px;
+  margin-top: -30px;
+  margin-bottom: -230px;
+  transform: rotate(-15deg);
+}
+
+.highlight-phone .iphone-mockup img.device {
+  width: 100%;
+  height: auto;
+}
+
+.highlight-phone .iphone-mockup .screen {
+  position: absolute;
+  width: 88%;
+  height: 77%;
+  top: 12%;
+  border-radius: 2px;
+  left: 6%;
+  border: 1px solid #444;
+  background-color: #aaa;
+  overflow: hidden;
+  background: url(screen-content-iphone-6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.highlight-phone .iphone-mockup .screen:before {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  width: 70%;
+  height: 140%;
+  top: -12%;
+  right: -60%;
+  transform: rotate(-19deg);
+  opacity: 0.2;
+}
+/*
+highlight-phone css ends 
+*/
+/*
+Highlight-clean css begins
+*/
+.highlight-clean {
+  color: #313437;
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.highlight-clean p {
+  color: #7d8285;
+}
+
+.highlight-clean h2 {
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.highlight-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.highlight-clean .buttons {
+  text-align: center;
+}
+
+.highlight-clean .buttons .btn {
+  padding: 16px 32px;
+  margin: 6px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  outline: none;
+  background-color: #ddd;
+}
+
+.highlight-clean .buttons .btn:hover {
+  opacity: 1;
+}
+
+.highlight-clean .buttons .btn:active {
+  transform: translateY(1px);
+}
+
+.highlight-clean .buttons .btn-primary {
+  background-color: #055ada;
+  color: #fff;
+}
+/*
+Highlight-clean css ends
+*/
+/*
+Highlight-blue css begins
+*/
+.highlight-blue {
+  color: #fff;
+  background-color: #1e6add;
+  padding: 50px 0;
+}
+
+.highlight-blue p {
+  color: #c4d5ef;
+  line-height: 1.5;
+}
+
+.highlight-blue h2 {
+  font-weight: normal;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.highlight-blue .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.highlight-blue .buttons {
+  text-align: center;
+}
+
+.highlight-blue .buttons .btn {
+  padding: 16px 32px;
+  margin: 6px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.highlight-blue .buttons .btn:hover {
+  opacity: 1;
+}
+
+.highlight-blue .buttons .btn:active {
+  transform: translateY(1px);
+}
+
+.highlight-blue .buttons .btn-primary, .highlight-blue .buttons .btn-primary:active {
+  border: 2px solid rgba(255,255,255,0.7);
+  border-radius: 6px;
+  color: #ebeff1;
+  box-shadow: none;
+  text-shadow: none;
+  padding: 14px 24px;
+  background: transparent;
+  transition: background-color 0.25s;
+}
+/*
+Highlight-blue css ends
+*/
