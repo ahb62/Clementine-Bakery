@@ -17,28 +17,31 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
         <!--Bootstrap ends-->
         <!--css let´s go-->
-        <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+        <link rel="stylesheet" type="text/css" href="products.css">
         <link rel="icon" type="image/png" href="img/favicon.png">
         <!--css ends here-->
     </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md sticky-top">
-        <div class="container-fluid"><button class="navbar-toggler" data-toggle="collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <nav class="navbar navbar-light navbar-expand-md fixed-top" id="bar0">
-                <div class="container-fluid"><a class="navbar-brand shadow" id="bar1" href="Home.html" style="padding: 10px;background-color: #f5d0a9;font-size: 22px;"><strong>Clementine's Bakery</strong></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                    <div
-                        class="collapse navbar-collapse" id="navcol-1">
-                        <ul class="nav navbar-nav ml-auto" id="bar2" style="padding: 5px;">
-                            <li class="nav-item" role="presentation"><a class="nav-link active shadow-sm" href="About Us.html" style="margin: 2;"><strong>About Us</strong></a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link active shadow-sm" href="Products.html"><strong>Products</strong></a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link active shadow-sm" href="Contact Us.html"><strong>Contact Us</strong></a></li>
-                        </ul>
-                </div>
-        </div>
+    <!--Navbar begins-->
+    <header>
+        <nav class="navbar navbar-light navbar-expand-md sticky-top">
+            <div class="container-fluid"><button class="navbar-toggler" data-toggle="collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <nav class="navbar navbar-light navbar-expand-md fixed-top" id="bar0">
+                    <div class="container-fluid"><a class="navbar-brand shadow" id="bar1" href="Home.html" style="padding: 10px;background-color: #f5d0a9;font-size: 22px;"><strong>Clementine's Bakery</strong></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navcol-1">
+                            <ul class="nav navbar-nav ml-auto" id="bar2" style="padding: 5px;">
+                                <li class="nav-item" role="presentation"><a class="nav-link active shadow-sm" href="About Us.html" style="margin: 2;"><strong>About Us</strong></a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link active shadow-sm" href="Products.html"><strong>Products</strong></a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link active shadow-sm" href="Contact Us.html"><strong>Contact Us</strong></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </nav>
-        </div>
-    </nav>
+    </header>
+    <!--Navbar ends-->
     <div style="margin-top: 69px;">
         <h2 class="text-center" style="color: rgb(0,0,0);"><strong><em>Breads</em></strong></h2>
         <div class="row" style="margin: 10px;">
@@ -62,15 +65,16 @@
             <div class="col"><img src="assets/img/Cupcake-Transparent.png" style="width: 140px;"></div>
         </div>
         <h2 class="text-center" style="color: rgb(0,0,0);"><strong><em>Snacks</em></strong></h2>
+        <div class="row" style="margin: 10px;">
+            <div class="col"><img src="assets/img/Skittles-PNG-Free-Image.png" style="width: 140px;height: 122px;"></div>
+            <div class="col"><img src="assets/img/Potato-Chips-PNG-Pic.png" style="width: 140px;height: 122px;"></div>
+            <div class="col"><img src="assets/img/Potato-Chips-PNG-HD-Image.png" style="width: 140px;height: 100px;"></div>
+            <div class="col"><img src="assets/img/Biscuit-PNG-HD.png" style="width: 140px;height: 122px;"></div>
+        </div>
     </div>
-    <div class="row" style="margin: 10px;">
-        <div class="col"><img src="assets/img/Skittles-PNG-Free-Image.png" style="width: 140px;height: 122px;"></div>
-        <div class="col"><img src="assets/img/Potato-Chips-PNG-Pic.png" style="width: 140px;height: 122px;"></div>
-        <div class="col"><img src="assets/img/Potato-Chips-PNG-HD-Image.png" style="width: 140px;height: 100px;"></div>
-        <div class="col"><img src="assets/img/Biscuit-PNG-HD.png" style="width: 140px;height: 122px;"></div>
-    </div>
-    <div class="footer-basic">
-        <footer>
+    <!--Footer Basic -->
+    <footer>
+        <div class="footer-basic">
             <div class="social"><a href="https://www.instagram.com/ahb.62/"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="Home.html">Home</a></li>
@@ -80,12 +84,15 @@
                 <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
             </ul>
             <p class="copyright">Clementine's Bakery - All rights reserved © 2020</p>
-        </footer>
-    </div>
+        </div>
+    </footer>
+    <!--Footer Basic ends-->
+    <!--Script begins-->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
+    <!--Script ends-->
 </body>
 
 </html>
